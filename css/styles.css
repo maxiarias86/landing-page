@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 4px 20px;
+    border: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0 100px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0;
+    background-color: #1F2937;
+    padding: 60px 100px;
+    color: #F9FAF8;
+    justify-content: space-between;
+}
+
+.web-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.awesome-image {
+    object-fit: contain;
+    width: 50%;
+    max-height: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 200px;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    min-width: 100px;
+}
+
+.item-image {
+    border: #3882F6;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+    flex: 1 1 0;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+.item-description {
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 200px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 40px 100px;
+    border-radius: 4px;
+
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.call-to-action-description {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: small;
+}
